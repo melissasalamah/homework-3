@@ -1,4 +1,5 @@
 // Assignment Code
+$(document).ready(function(){
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -127,3 +128,4 @@ function copyPassword() {
   document.execCommand("Copy");
   alert("Password copied to clipboard!");
 }
+})
